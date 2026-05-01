@@ -1,0 +1,19 @@
+{
+  "name": "team-task-manager",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "build": "npm run build --workspace frontend",
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "start": "npm run start --workspace backend",
+    "start-api": "npm run start --workspace backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
