@@ -1,7 +1,8 @@
 # Team Task Manager
 
-A full-stack Team Task Manager assignment app where users can create projects, manage teams, assign tasks, and track progress with Admin/Member role-based access.
+A full-stack Team Task Manager assignment app where users can create projects, manage teams, assign tasks, and track progress with Admin/Member role-based access
 
+incredible-acceptance-production.up.railway.app
 ## Tech Stack
 
 - Frontend: React + Vite
